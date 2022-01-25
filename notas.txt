@@ -1,0 +1,54 @@
+SERVER
+[-] Agregar una props de color a la coleccion, pero solo unos pocos colores, y uno de default
+[-] Al parecer el req.user funciona, hacer otra rama o copia del projecto para cambiarlo
+
+CLIENT
+[-] Ordenar los componentes
+[x] Agregar filtros, de favoritos a las notas y a las colleciones
+[-] Cambiar el vacio de react quill en el onChange que tiene con: text.replace(/<p><br><\/p>/g, "")
+[-] Puedo usar useParams en los custom hook de de react query, asi evito pasar por los parametros de las funciones 
+[-] Y un buscador para cada uno
+[-] Ver que hacer o que paso cuando intento agregar una nota en la vista de coleccion no existente
+[-] Libreria que permite convertir un .docx a html para react quill: https://www.npmjs.com/package/mammoth
+
+------------------------- -------------------------
+USERS
+
+username: test
+correo: test@test.com
+password: 123456Aa_
+confirmar contraseña: 123456Aa_
+
+---------- ---------- 
+username: _GR
+correo: guidorivoira@hotmail.com
+password: Guidev_404
+confirmar contraseña: Guidev_404
+
+------------------------- -------------------------
+
+Configuracion del de la barra de herramientas de react quill
+
+// [{ 'header': [1, 2, false] }],
+// ['bold', 'italic', 'underline','strike', 'blockquote'],
+// [{'list': 'ordered'}, {'list': 'bullet'}, {'indent': '-1'}, {'indent': '+1'}],
+// ['link', 'image'],
+// ['clean']
+
+// const toolbarOptions = [
+//   { 'header': [1, 2, 3, false]},
+//   [{size: [1,2,3,4]}],
+//   'bold', 'italic', 'underline', 'blockquote',
+//   { 'list': 'ordered' }, { 'list': 'bullet' },
+//   { 'indent': '-1' }, { 'indent': '+1' },
+//   { 'color': [] }, { 'background': [] },
+//   'link', 'image', 'video'
+// ]
+
+
+            {/* <div className="text-center">
+              <FolderOutlineIcon color={"#ccc"} size={60} />
+              <p className="my-3 h4 text-color"> La coleccion no existe </p>
+            </div> */}
+            {/* <hr className="my-4" /> */}
+            {/* <FormCollection modeEdition={{ state: false }} inOwnPage /> */}
